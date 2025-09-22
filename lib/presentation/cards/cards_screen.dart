@@ -39,6 +39,7 @@ class _CardsView extends StatelessWidget {
             (card) =>
                 _CardType2(label: card['label'], elevation: card['elevation']),
           ),
+          const SizedBox(height: 100),
         ],
       ),
     );
